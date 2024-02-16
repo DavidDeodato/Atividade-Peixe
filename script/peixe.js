@@ -45,7 +45,6 @@ function create(){
     baiacu.setFlip(true, false);
 }
 
-//fazendo o peixe se mover na tela  - function (ele atualiza toda vez que tem uma atualização, a todo constante)
 
 function update() {
 
@@ -56,7 +55,7 @@ function update() {
         baiacu.setFlip(false, false);
     }
 
-
+//fazendo o baiacu se mover na tela 
 baiacu.x = this.input.x;
 baiacu.y = this.input.y;
 
